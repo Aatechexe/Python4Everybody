@@ -1,3 +1,3 @@
 string = 'Barcelona is the most completedd player in the world'
-if 'barc' in string:
+if 'barca' in string:
     print('Found it')

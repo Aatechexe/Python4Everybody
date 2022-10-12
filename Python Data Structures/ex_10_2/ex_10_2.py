@@ -26,8 +26,10 @@ for line in handle:
 lst = list()
 for k,v in data.items():
     newsetup = (k,v)
+    #print(v,k)
     lst.append(newsetup)
 
+print()
 lst.sort()
 for k,v in lst:
     print(k, v)

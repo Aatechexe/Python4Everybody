@@ -1,14 +1,16 @@
-line = 'A lot        of spaces'
-sline = line.split()
-print(line)
-print(sline)
+# line = 'A lot        of spaces'
+# sline = line.split()
+# print(line)
+# print(sline)
 
-print()
+# print()
 
-newline = 'first;second;third'
-snewline = newline.split()
+newline = 'first@second;third'
+# snewline = newline.split()
 print(newline)
-print(snewline)
+# print(snewline)
 
-spnewline = newline.split(';')
+spnewline = newline.split('@')
+print(spnewline)
+spnewline = spnewline[0]
 print(spnewline)
